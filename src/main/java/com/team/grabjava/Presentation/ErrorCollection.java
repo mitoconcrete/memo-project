@@ -1,4 +1,4 @@
-package back_end.java.memoproject.src.main.java.com.team.grabjava.Presentation;
+package com.team.grabjava.Presentation;
 
 public interface ErrorCollection {
 
