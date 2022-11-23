@@ -1,8 +1,8 @@
-package com.team.grabjava.Utils;
+package com.team.grabjava.utils;
 
 
 
-import com.team.grabjava.Entities.Memo;
+import com.team.grabjava.entities.Memo;
 
 import java.util.Comparator;
 

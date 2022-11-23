@@ -1,9 +1,9 @@
-package com.team.grabjava.Service;
+package com.team.grabjava.service;
 
 
-import com.team.grabjava.Entities.Memo;
-import com.team.grabjava.Repository.JavaMemoRepository;
-import com.team.grabjava.Repository.MemoRepository;
+import com.team.grabjava.entities.Memo;
+import com.team.grabjava.repository.JavaMemoRepository;
+import com.team.grabjava.repository.MemoRepository;
 
 import java.util.List;
 

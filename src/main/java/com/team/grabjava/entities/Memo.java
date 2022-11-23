@@ -1,4 +1,4 @@
-package com.team.grabjava.Entities;
+package com.team.grabjava.entities;
 
 import java.util.Date;
 
