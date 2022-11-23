@@ -1,18 +1,20 @@
 package com.team.grabjava.Service;
 
-import Entity.Memo;
-import Repository.JavaMemoRepository;
-import Repository.MemoRepository;
+
+import com.team.grabjava.Entities.Memo;
+import com.team.grabjava.Repository.JavaMemoRepository;
+import com.team.grabjava.Repository.MemoRepository;
 
 import java.util.List;
+
 
 public class JavaMemoService implements MemoService{
 
     MemoRepository memoRepository = new JavaMemoRepository();
 
     @Override
-    public boolean saveMemo(String writer, String password, String memo) {
-        memoRepository.saveMemo(writer, password, memo);
+    public boolean addMemo(String writer, String password, String memo) {
+        memoRepository.addMemo(writer, password, memo);
         return true;
     }
 
