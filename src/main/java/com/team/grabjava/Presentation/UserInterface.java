@@ -1,6 +1,6 @@
 package back_end.java.memoproject.src.main.java.com.team.grabjava.Presentation;
 
-public class UserInterface {
+public class UserInterface implements ErrorCollection {
     public void run() {
         // 메모장 프로그램 메뉴 구성
         System.out.println("=메모장 프로그램=");
@@ -64,5 +64,23 @@ public class UserInterface {
     public void closeMessage(int input){
         System.out.println("프로그램을 종료합니다.");
     };
+
+    // 시작메뉴에서 1 ~ 5번 이외에 숫자 or 공백를 입력할 경우 발생하는 오류
+    @Override
+    public void numberInputError() {
+        System.out.println("잘못 입력하셨습니다.");
+    }
+
+    // 수정할 글이 존재하지 않을 경우 발생하는 메세지
+    @Override
+    public void reviseFail() {
+        System.out.println("수정할 글이 존재하지 않습니다.");
+    }
+
+    // 수정할 글의 비밀번호가 일치하지 않을 때 발생하는 오류
+    @Override
+    public void passwordChangeFail() {
+        System.out.println("수정할 글의 비밀번호가 일치하지 않습니다.");
+    }
 
 }
