@@ -80,7 +80,7 @@ public class UserInterface implements ErrorCollection {
     }
 
     // 프로그램 종료 화면
-    public void closeMessage(int input){
+    public void closeMessage(){
         System.out.println("프로그램을 종료합니다.");
     };
 
