@@ -3,9 +3,9 @@ package com.team.grabjava.Service;
 import com.team.grabjava.Entities.Memo;
 import java.util.List;
 
-public class MemoService {
+public interface MemoService {
 
-    boolean saveMemo(String writer, String password, String memo);
+    boolean addMemo(String writer, String password, String memo);
     boolean updateMemo(int id, String password, String updatePayload);
     boolean deleteMemo(int id, String password);
     List<Memo> getMemoList();
