@@ -1,6 +1,6 @@
-package com.team.grabjava.Entities;
+package com.team.grabjava.entities;
 
-import com.team.grabjava.Utils.MemoDateComparator;
+import com.team.grabjava.utils.MemoDateComparator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
