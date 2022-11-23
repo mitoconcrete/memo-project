@@ -19,8 +19,7 @@ public class JavaMemoRepository implements MemoRepository{
 
     @Override
     public Memo getMemoById(int id) {
-        memoDB.getMemoById(id);
-        return null;
+        return memoDB.getMemoById(id);
     }
 
     @Override
