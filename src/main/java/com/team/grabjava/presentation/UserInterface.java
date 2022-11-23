@@ -36,8 +36,6 @@ public class UserInterface implements ErrorCollection {
         System.out.println("패스워드를 입력하세요.");
     }
 
-    ㅔ
-
     /** 수정기능 **/
     // 수정할 글 입력 화면
     public void changeMemo(){
