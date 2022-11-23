@@ -1,6 +1,6 @@
-package com.team.grabjava.Service;
+package com.team.grabjava.service;
 
-import com.team.grabjava.Entities.Memo;
+import com.team.grabjava.entities.Memo;
 import java.util.List;
 
 public interface MemoService {

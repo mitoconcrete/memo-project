@@ -1,4 +1,4 @@
-package com.team.grabjava.Presentation;
+package com.team.grabjava.presentation;
 
 public interface ErrorCollection {
 
