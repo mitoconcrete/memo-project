@@ -1,5 +1,9 @@
 package com.team.grabjava.presentation;
 
+import com.team.grabjava.entities.Memo;
+
+import java.util.List;
+
 public class UserInterface implements ErrorCollection {
     public void run() {
         // 메모장 프로그램 메뉴 구성
@@ -41,6 +45,17 @@ public class UserInterface implements ErrorCollection {
     // 수정 완료 메소드
     public void revise(){
         System.out.println("수정되었습니다.");
+    }
+
+    /** 목록 조회 기능 **/
+    public void getMemoList(List<Memo> memoList){
+        if(memoList.size() != 0){
+            for(Memo memo: memoList){
+                System.out.println(memo.getId() + " / " + memo.getWriter() + " / " + memo.getMemo() + " / " + memo.getCreated_at());
+            }
+        }else{
+            System.out.println("메모가 존재하지 않습니다.");
+        }
     }
 
 
