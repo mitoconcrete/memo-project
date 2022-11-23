@@ -1,6 +1,7 @@
 package com.team.grabjava.presentation;
 
 public interface ErrorCollection {
+    void createInputError();
 
     // 시작메뉴에서 1 ~ 5번 이외에 숫자 or 공백를 입력할 경우 발생하는 오류
     public void numberInputError();
